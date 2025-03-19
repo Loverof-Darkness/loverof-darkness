@@ -94,3 +94,11 @@ a:hover {
     color: #fff;
     cursor: pointer;
   }
+  
+  body {
+    background-color: black;
+    color: cyan;
+    font-family: Arial, sans-serif;
+}
+
+
