@@ -46,3 +46,6 @@ function animate() {
 }
 animate();
 gsap.to(cube.rotation, { x: Math.PI * 2, duration: 2, repeat: -1, yoyo: true });
+// Dynamic Year in Footer
+const year = new Date().getFullYear();
+document.getElementById('year').textContent = year;
